@@ -1,0 +1,63 @@
+#include <stdio.h>
+#include <stdlib.h>
+struct node
+{
+    int data;
+    struct node *next;
+     struct node *root;
+};
+struct node new(int data)
+{
+     struct node *root=(struct node*)malloc(sizeof(struct node));
+    root->data=data;
+    root->next=NULL;
+}
+int insert(int data)
+{
+    struct node  *first;
+    struct node *start;
+    struct node *p;
+    int *root;
+    if(root==NULL)
+    {
+        *start=new(data);
+    }
+    else
+    {
+        *p=new(data);
+        first=start;
+        while(first->next=NULL)
+        {
+        if(first->next==NULL)
+        {
+            first->next=p;
+        }
+        else
+        {
+            first=p;
+        }
+        }
+    }
+    return;
+}
+int main()
+{
+    int i,*j,k,l,n,m[100];
+    int data;struct node *root,*start;
+    printf("enter the number to insert");
+    scanf("%d",&n);
+    root=NULL;
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&data);
+    insert(data);
+        
+    }
+       while(start!=NULL)
+     {
+           printf("%d",start->data);
+           start=start->next;
+     }
+    return 0;
+}
+
