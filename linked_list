@@ -1,63 +1,38 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 struct node
 {
     int data;
-    struct node *next;
-     struct node *root;
+    struct node* next;
 };
-struct node new(int data)
+int main()
 {
-     struct node *root=(struct node*)malloc(sizeof(struct node));
-    root->data=data;
-    root->next=NULL;
-}
-int insert(int data)
-{
-    struct node  *first;
-    struct node *start;
-    struct node *p;
-    int *root;
-    if(root==NULL)
+    struct node *a,*head,*prev;
+    int i,n;
+    printf("enter the number to be insert");
+    scanf("%d",&n);
+    head=NULL;
+    for(i=0;i<n;i++)
     {
-        *start=new(data);
-    }
-    else
-    {
-        *p=new(data);
-        first=start;
-        while(first->next=NULL)
+        a=(struct node*)malloc(sizeof(struct node));
+        scanf("%d",&a->data);
+        a->next=NULL;
+        if(head==NULL)
         {
-        if(first->next==NULL)
-        {
-            first->next=p;
+            head=a;
         }
         else
         {
-            first=p;
+            prev->next=a;
         }
-        }
+        prev=a;
     }
-    return;
-}
-int main()
-{
-    int i,*j,k,l,n,m[100];
-    int data;struct node *root,*start;
-    printf("enter the number to insert");
-    scanf("%d",&n);
-    root=NULL;
-    for(i=0;i<n;i++)
+    while(head!=NULL)
     {
-        scanf("%d",&data);
-    insert(data);
-        
+        printf("%d",head->data);
+        head=head->next;
     }
-       while(start!=NULL)
-     {
-           printf("%d",start->data);
-           start=start->next;
-     }
+
     return 0;
 }
-
