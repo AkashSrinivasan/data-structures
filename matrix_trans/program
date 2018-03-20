@@ -2,9 +2,9 @@
 int main()
 {
     int a[10][10],p[10][10],i,j,k,m,n;
-    printf("enter the rows and coloumn");
+    printf("enter the rows and coloumn\n");
     scanf("%d%d",&m,&n);
-    printf("first");
+    printf("enter the value for the matrix\n");
     for(i=0;i<m;i++)
     {
         for(j=0;j<n;j++)
