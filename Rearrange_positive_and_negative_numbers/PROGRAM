@@ -18,7 +18,7 @@ int main()
         {
             continue;
         }
-        j=i-1;
+        j=i-1;//
         while(a[j]>0 && j>=0)
         {
             a[j+1]=a[j];
