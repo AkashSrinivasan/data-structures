@@ -1,3 +1,4 @@
+ /* reversing the linked list */
  #include <stdio.h>
 #include <string.h>
 struct node {
