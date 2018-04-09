@@ -19,7 +19,7 @@ void main()
         num = num / 2;
         base = base * 10;
     }
-    printf("Input number is = %d\n", decimal_num);
+    printf("Input number is = %d\n", decimal_num);hhh
     printf("Its binary equivalent is = %ld\n", binary);
     printf("No.of 1's in the binary number is = %d\n", no_of_1s);
     return 0;
