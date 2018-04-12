@@ -28,7 +28,7 @@ int main()
             first++;
         }
         f=!f;
-    }ggghhh
+    }
     for(i=0;i<n;i++)
     {
         a[i]=b[i];
