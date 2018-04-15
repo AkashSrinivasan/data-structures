@@ -27,7 +27,7 @@ int main()
         {
             printf("%d ",p[i][j]);
         }
-        printf("\n");hh
+        printf("\n");h
     }
     return 0;
 }
