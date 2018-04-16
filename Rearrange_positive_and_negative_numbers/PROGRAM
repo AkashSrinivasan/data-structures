@@ -20,7 +20,7 @@ int main()
         }
         j=i-1;//
         while(a[j]>0 && j>=0)
-        {hhhh
+        {h
             a[j+1]=a[j];
             j=j-1;
         }
