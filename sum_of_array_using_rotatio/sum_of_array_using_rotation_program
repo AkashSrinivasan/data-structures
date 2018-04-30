@@ -4,6 +4,7 @@
 #include <string.h>
 
 int main()
+
 {
 
     int *a,i=0,j,k,l,n,x,count=0,mul=0;
