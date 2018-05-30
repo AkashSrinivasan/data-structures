@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+    int num,frame,i,a[1000],b[1000];
+    scanf("%d",&frame);
+    scanf("%d",&num);
+    
+    for(i=0;i<num;i++)
+    {
+        scanf("%d %d",&a[i],&b[i]);
+    }
+    for(i=0;i<num;i++)
+    {
+       
+        
+        
+        
+         if((a[i]>frame && b[i]>frame && a[i]!=b[i])||(a[i]==frame && b[i]>frame) || (a[i]>frame && b[i]==frame)){
+            printf("CROP IT");
+        }
+        else if((a[i]<frame || b[i]<frame)||(a[i]>frame && b[i]<frame) || (a[i]<frame&&b[i]>frame)){
+            printf("UPLOAD ANOTHER");
+        }
+        else if((a[i]==frame && b[i]==frame)||(a[i]==b[i])||(a[i]>frame && b[i]>frame && a[i]==b[i])){
+            
+                printf("ACCEPTED");
+            
+        }
+        printf("\n");
+    }
+    return 0;
+    
+}
