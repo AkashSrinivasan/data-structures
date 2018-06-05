@@ -67,3 +67,31 @@ void print(struct node *arr[],int nodes)
         }
     }
 }
+__________________________________________________________________________________________
+***output***
+
+
+
+enter the nodes:5                                                                                                                
+enter the neighbour of 1 1                                                                                                       
+enter the value of 1 neighbour of 14                                                                                             
+enter the neighbour of 2 2                                                                                                       
+enter the value of 1 neighbour of 24                                                                                             
+enter the value of 2 neighbour of 25                                                                                             
+enter the neighbour of 3 1                                                                                                       
+enter the value of 1 neighbour of 35                                                                                             
+enter the neighbour of 4 3                                                                                                       
+enter the value of 1 neighbour of 41                                                                                             
+enter the value of 2 neighbour of 42                                                                                             
+enter the value of 3 neighbour of 45                                                                                             
+enter the neighbour of 5 3                                                                                                       
+enter the value of 1 neighbour of 54                                                                                             
+enter the value of 2 neighbour of 52                                                                                             
+enter the value of 3 neighbour of 53                                                                                             
+                                                                                                                                 
+the neighbour of 1 is : 4                                                                                                        
+the neighbour of 2 is : 4       5                                                                                                
+the neighbour of 3 is : 5                                                                                                        
+the neighbour of 4 is : 1       2       5                                                                                        
+the neighbour of 5 is : 4       2       3                                                                                        
+______________________________________________________________________________________________
