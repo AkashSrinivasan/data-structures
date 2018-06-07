@@ -1,4 +1,7 @@
-Sumit is given an array A of size N, where Ai represents the happiness sumit get by eating the i-th dish. Sumit will eat all the dishes in a series of steps. In each step, sumit pick a non empty subset of the remaining dishes and eat them. The happiness sumit get from eating these dishes is the size of the subset multiplied by the sum of the individual happiness from the dishes in the subset. Sumit want to maximize the happiness he get from the entire feast, which is the sum of happiness in each step.
+Sumit is given an array A of size N, where Ai represents the happiness sumit get by eating the i-th dish. Sumit will eat all the dishes in 
+a series of steps. In each step, sumit pick a non empty subset of the remaining dishes and eat them. The happiness sumit get from eating 
+these dishes is the size of the subset multiplied by the sum of the individual happiness from the dishes in the subset. Sumit want to 
+maximize the happiness he get from the entire feast, which is the sum of happiness in each step.
 
 SAMPLE INPUT 
 1
