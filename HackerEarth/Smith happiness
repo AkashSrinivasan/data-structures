@@ -8,10 +8,6 @@ SAMPLE INPUT                    SAMPLE OUTPUT
 3
 -8 0 -2
                                    
-                                   
-
-
-
 
 ***PROGRAM***
 #include <stdio.h>
