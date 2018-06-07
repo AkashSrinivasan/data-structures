@@ -13,9 +13,6 @@ SAMPLE OUTPUT
 -10
 
 
-
-
-
 ***PROGRAM***
 #include <stdio.h>
 int main()
