@@ -3,14 +3,14 @@ a series of steps. In each step, sumit pick a non empty subset of the remaining 
 these dishes is the size of the subset multiplied by the sum of the individual happiness from the dishes in the subset. Sumit want to 
 maximize the happiness he get from the entire feast, which is the sum of happiness in each step.
 
-SAMPLE INPUT 
-1
+SAMPLE INPUT                    SAMPLE OUTPUT 
+1                                -10
 3
 -8 0 -2
+                                   
+                                   
 
 
-SAMPLE OUTPUT 
--10
 
 
 ***PROGRAM***
