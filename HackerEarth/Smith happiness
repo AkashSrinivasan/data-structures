@@ -14,3 +14,25 @@ SAMPLE OUTPUT
 
 
 
+
+
+***PROGRAM***
+#include <stdio.h>
+int main()
+{
+    int n,i,k,a;
+    long int b;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a);
+        long int c=0;
+        for(k=0;k<a;k++)
+            {
+                scanf("%d",&b);
+                c=1*b+c;
+            }
+        printf("%d\n",c);
+    }
+    return 0;
+}
