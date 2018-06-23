@@ -28,6 +28,8 @@ char pop()
       return(stack[top--]);
 }
  
+ 
+ 
 int match_paranthesis(char a, char b)
 {
       if(a == '[' && b == ']')
