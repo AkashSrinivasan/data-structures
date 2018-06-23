@@ -87,6 +87,9 @@ int check_paranthesis(char expression[])
             return 0;
       }
 }
+
+
+
 int main()
 {
       char expression[MAX];
