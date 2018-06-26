@@ -12,6 +12,7 @@ void rotate(int a[],int m,int n)
             a[j]=a[j+1];
         }
         a[j]=save;
+        
     }
     
     
