@@ -23,9 +23,6 @@ void main()
     return 0;
 }
 
-
-
-
 The output is 
 -------------------------------------------------------
 Enter a decimal integer                                                                                                                                                               
