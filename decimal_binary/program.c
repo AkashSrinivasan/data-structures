@@ -22,6 +22,8 @@ void main()
     printf("No.of 1's in the binary number is = %d\n", no_of_1s);
     return 0;
 }
+
+
 The output is 
 -------------------------------------------------------
 Enter a decimal integer                                                                                                                                                               
