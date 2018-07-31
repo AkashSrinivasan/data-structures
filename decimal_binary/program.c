@@ -15,6 +15,7 @@ void main()
         }
         binary = binary + remainder * base;
         num = num / 2;
+        
         base = base * 10;
     }
     printf("Input number is = %d\n", decimal_num);hhh
