@@ -6,7 +6,6 @@ int main()
     char a[100],d;
     int i,j,k,l,count=1;
     
-    
     printf("Hello World=");
     scanf("%s",&a);
     j=strlen(a);
