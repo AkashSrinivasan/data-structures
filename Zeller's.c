@@ -2,6 +2,8 @@ Zeller's algorithm used to find the day for given date
 
 FORMULA
 
+
+
 h=[q+(13*(m+1))/5+k+k/4+j/4-2*j]%7
 
 --h is the day of the week (0 = Saturday, 1 = Sunday, 2 = Monday, …, 6 = Friday)
