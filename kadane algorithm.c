@@ -2,7 +2,6 @@ KADANE ALGORITHM
     used to find the Largest Sum Contiguous Subarray
 
 
-
 #include <stdio.h>
 
 
