@@ -1,0 +1,48 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+#include <stdlib.h>
+void rotate(int a[],int m,int n)
+{
+    int i,j,save;
+    for(i=0;i<m;i++)
+    {
+        save=a[0];
+        for(j=0;j<n-1;j++)
+        {
+            a[j]=a[j+1];
+        }
+        a[j]=save;
+        
+    }
+    
+    
+}
+
+int main()
+{
+    int *a,i,j,k,n,m;
+   
+    scanf("%d",&n);
+     scanf("%d",&m);
+    a=(int*)malloc(n* sizeof(int));
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+
+   
+    rotate(a,m,n);
+    for(i=0;i<n;i++)
+    {
+        printf("%d ",a[i]);
+    }
+
+    return 0;
+}
